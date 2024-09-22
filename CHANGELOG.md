@@ -2,6 +2,15 @@
 
 ## Release 24.11 (unreleased)
 
+### New Services
+
+* New module `supervisord`, a process supervisor. Allows for
+  configurable management of services.
+
+* New service `openssh`, an open-source SSH implementation. Allows for
+  setup and management of SSH servers. Relies on `supervisord` module
+  to manage server services.
+
 ## Release 24.05
 
 ### New Options
